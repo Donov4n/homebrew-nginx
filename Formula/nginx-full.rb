@@ -295,7 +295,7 @@ class NginxFull < Formula
     if build.with?("lua-module")
       luajit_path = `#{HOMEBREW_PREFIX}/bin/brew --prefix luajit`.chomp
       ENV["LUAJIT_LIB"] = "#{luajit_path}/lib"
-      ENV["LUAJIT_INC"] = "#{luajit_path}/include/luajit-2.0"
+      ENV["LUAJIT_INC"] = "#{luajit_path}/include/luajit-2.1"
     end
 
     if build.head?
