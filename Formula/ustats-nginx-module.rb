@@ -1,5 +1,5 @@
 class UstatsNginxModule < Formula
-  desc "basic statistics for each backend in nginx upstreams"
+  desc "Basic statistics for each backend in nginx upstreams"
   homepage "https://github.com/nginx-modules/ngx_ustats_module"
   url "https://github.com/nginx-modules/ngx_ustats_module/archive/ngx_ustats_0.3.tar.gz"
   version "0.3"

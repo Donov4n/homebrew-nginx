@@ -1,5 +1,5 @@
 class SubsFilterNginxModule < Formula
-  desc "regular expression and fixed string substitutions"
+  desc "Regular expression and fixed string substitutions"
   homepage "https://github.com/yaoweibin/ngx_http_substitutions_filter_module"
   url "https://github.com/yaoweibin/ngx_http_substitutions_filter_module/archive/v0.6.4.tar.gz"
   version "0.6.4"

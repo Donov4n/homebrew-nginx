@@ -1,5 +1,5 @@
 class LogIfNginxModule < Formula
-  desc "allows you to control when not to write down access log"
+  desc "Allows you to control when not to write down access log"
   homepage "https://github.com/cfsego/ngx_log_if"
   url "https://github.com/cfsego/ngx_log_if/archive/32ff3e9.tar.gz"
   version "0.1"

@@ -16,7 +16,7 @@ class NaxsiNginxModule < Formula
   end
 
   test do
-    File.exist?pkgshare
+    File.exist? pkgshare
     File.exist?(etc/"nginx/naxsi_core.rules")
   end
 end
